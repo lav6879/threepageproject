@@ -1,20 +1,14 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch+Pop&display=swap');
-* {
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Rubik+Glitch+Pop&display=swap');
+{
   /* border: 1px solid black; */
   box-sizing: border-box;
-}
-
-title{
-  background-color: #CDD5C6;
-  font-family: 'Rubik Glitch Pop', system-ui;
-  color: #FBF2ED;
-  font-size: 32px;
 }
 
 body {
   margin: 0px;
   padding: 0px;
+  background-color: #CDD5C6;
 }
 
 html {
@@ -22,69 +16,88 @@ html {
   padding: 0px;
 }
 
-.sideNav {
-  /* height: 100vh; */
-  position: fixed;
-  height: 240px;
-  width: 100vw;
-  display: flex;
-  background-color: #eee;
-  padding: 16px;
+nav{
+  display: block;
+  float: left;
+  width: 20%;
+  height: 100%;
+  background: #FBF2ED;
+  padding: 20px;
 }
 
-.heroTitle {
-  background-image: url('http://placekitten.com/1920/1080');
-  /* height: 50vh; */
+a, a:visited, a:active {
+  text-decoration: none;
+  letter-spacing: .2rem;
+  font-family: 'Climate Crisis', sans-serif;
+  color: #B7BCBF;
+  text-align: left;
+}
+
+a:active {
+  color: #FBF2ED;
+}
+
+a:hover {
+  background-color: #FBF2ED;
+}
+.subheading{
+  font-family: 'Climate Crisis', sans-serif;
+  color: #FBF2ED;
+  font-size: 32px;
+  line-height: 4px;
+  text-align: center;
+}
+.content{
+  font-family: 'Climate Crisis', sans-serif;
+  color: #FBF2ED;
+  font-size: 28px;
+}
+.container {
+  text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: repeat(3, 600px);
+    width: 1200px;
+    height: 1800px;
+    }
+    .rectangle {
+      width: 400px;
+      height: 600px;
+    }
+
+.navLink {
+  margin: 0px;
+}
+
+.info{
+  width: 75%;
+  height: 100%;
+  float: right;
+}
+.text{
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 20px;
+  color: slategrey;
+  line-height: 32px;
+}
+
+.largeimage {
+  background-image: url('https://static01.nyt.com/images/2022/11/27/opinion/25Greenley/25Greenley-superJumbo.jpg');
+  height: 30%; 
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right;
   color: #fff;
-  padding: 32px;
+  padding: 38px;
 }
 
 .title {
-  background-color: #CDD5C6;
   font-family: 'Rubik Glitch Pop', system-ui;
   color: #FBF2ED;
-  font-size: 32px;
-  .b-animation-marquee__item {
-    display: inline-block;
-    vertical-align: top;
-}
-  font-size: 64pt;
-}
-
-.mainContainer {
-  padding-top: 240px;
+  letter-spacing: .2rem;
+  display: inline-block;
+  font-size: 84px;
+  text-align: center;
+  text-decoration: underline overline;
 }
 
-.contentContainer {
-  padding-left: 32px;
-  padding-right: 32px;
-}
-
-.sectionHeader {
-  text-decoration: underline;
-  font-size: 32pt;
-  margin-top: 128px;
-  margin-bottom: 64px;
-}
-
-p {
-  font-size: 24pt;
-}
-
-.thumbnailContainer {
-  margin-top: 64px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.thumbnail {
-  width: 33%;
-}
-
-.columnContainer {
-  display: flex;
-  justify-content: space-between;
-}

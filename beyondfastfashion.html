@@ -3,16 +3,39 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
 	<title>Beyond Fast Fashion</title>
 </head>
 <body>
-    <h1>Contact Us</h1>
-    <p>This is the contact page of our website.</p>
+    <div class="subheading">
+    <h1>Beyond Fast Fashion</h1> 
+    <p>Alternatives to Fast Fashion</p>
+    </div>
     <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="beyondfastfashion.html">About</a></li>
+            <p><a class="navLink" href="index.html">Home</a></p>
+            <p><a class="navLink" href="fastfashiongiants.html">Fast Fashion Giants</a></p>
         </ul>
     </nav>
+    <div class="info">
+    <h2 class="content"> Thrifting!</h2>
+        <p class="text">Explore local Thrift Stores: get great deals, find unique items, and rock them!<br>If you are more of a homebody consider online thrifting!<br> Don't forget thrifting can be fitting for anyone: from vinatge shops, consignment stores, to flea markets. You can find something for every kind of shopper. </p>
+        <center><a href="https://www.vinted.com/">
+            <img src="data:image/png;base64,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" width="204" height="204">
+        </a>
+        <a href="https://www.thredup.com/">
+        <img src="https://miro.medium.com/v2/resize:fit:1400/1*STxtJMOl0rPyktP84oRd5w.jpeg" width="264" height="204">
+        </a>
+        <a href="https://www.depop.com/">
+            <img src="https://storage.googleapis.com/depop-blog-assets/Depop_Favicon-600px.jpg" width="204" height="204">
+        </a>
+        </center>
+    <h3 class="content">Repurposing Clothing</h3>
+        <p class="text">Repurposing clothing doesn't necessarily require a sewing machine; many creative techniques can breathe new life into old garments. Hand sewing, for instance, offers a versatile and accessible alternative. With basic sewing supplies like needles, thread, and scissors, one can mend, alter, or embellish clothing with relative ease. Techniques such as hand stitching, embroidery, appliqué, and fabric glues can transform outdated pieces into trendy or personalized creations. Additionally, simple alterations like hemming, patching, or adding decorative elements can refresh garments without the need for a sewing machine. Through resourcefulness and creativity, individuals can reimagine their wardrobes, reduce waste, and cultivate a sustainable approach to fashion.</p>
+        <center><iframe width="560" height="315" src="https://www.youtube.com/embed/m_qc6UaJ4xA?si=aO5qkh0PlJsqp41q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
+    <h4 class="content"> Shopping Conciously </h4>
+    <p class="text">Keep an eye out for the following labels when shopping from your favorite retailers. If they do not show op consider looking into the environmental impacts of the retailer you are purchasing from.</p>
+    <center><img style= "padding: 30px;" src="https://ecocult.com/wp-content/uploads/2019/07/Fashion_labels.jpg"></center>
+    </div>
 </body>
 </html>
