@@ -17,9 +17,11 @@ html {
 }
 
 nav{
+  left: 0px;
+  top: 0px;
+  position: fixed;
   display: block;
-  float: left;
-  width: 20%;
+  width: 200px;
   height: 100%;
   background: #FBF2ED;
   padding: 20px;
@@ -44,13 +46,15 @@ a:hover {
   font-family: 'Climate Crisis', sans-serif;
   color: #FBF2ED;
   font-size: 32px;
-  line-height: 4px;
+  letter-spacing: 4px;
+  padding-left: 300px;
   text-align: center;
 }
 .content{
   font-family: 'Climate Crisis', sans-serif;
   color: #FBF2ED;
   font-size: 28px;
+  letter-spacing: 2px;
 }
 .container {
   text-align: center;
@@ -72,7 +76,7 @@ a:hover {
 .info{
   width: 75%;
   height: 100%;
-  float: right;
+  padding-left: 300px;
 }
 .text{
   font-family: 'Red Hat Display', sans-serif;
@@ -83,10 +87,10 @@ a:hover {
 
 .largeimage {
   background-image: url('https://static01.nyt.com/images/2022/11/27/opinion/25Greenley/25Greenley-superJumbo.jpg');
-  height: 30%; 
+  height: 100px; 
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: left;
   color: #fff;
   padding: 38px;
 }
@@ -94,6 +98,7 @@ a:hover {
 .title {
   font-family: 'Rubik Glitch Pop', system-ui;
   color: #FBF2ED;
+  padding-left: 190px;
   letter-spacing: .2rem;
   display: inline-block;
   font-size: 84px;
